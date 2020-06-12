@@ -1,8 +1,7 @@
 package com.example.powercalc;
 
 import Adapter.DomesticAdapter;
-//import Model.EditModel;
-//import Model.EditName;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
