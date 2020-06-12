@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Power\nCalculator</string>
+    <string name="logo_name">Pc</string>
+    <string name="domestic_button">DOMESTIC/OFFICES\nsuch as Refrigerators, Light Bulbs etc.</string>
+    <string name="industry_button">INDUSTRIAL/HIRE EQUIPMENT\nsuch as Stone Cutter etc.</string>
+    <string name="garden_button">GARDEN/DIY\nsuch as Lawn Mower, Rotavator etc</string>
+    <string name="caravan_button">CARAVAN CAMPING\nsuch as Electrolux, Caravaner Kettle etc</string>
+    <string name="introduction_name">People often make the mistake of assuming the generator bought is has the capacity to accommodate the total load applied on it but before deciding on a generator, it is important to consider ALL the appliance you may want to operate, how many will be used simultaneously and the TOTAL current consumption at any one time. Most appliances have a descriptive plate stating the current, usually in watts.  IMPORTANT various electrical applications have very different power requirements, so it is essential to understand each particular need. For example TV sets, cookers, kettles and filament lamps have resistive loads, this means that their start up and operating currents are virtually the same - and as stated on the manufactured descriptive plate.</string>
+    <string name="App_Given_name">Power Calculator</string>
+    <string name="title">How much Power do you need?</string>
+    <string name="button_intro">Select from the options below the category of load:</string>
+    <string name="domestic_intro">Please Enter the quantity of each item you use in your homes or offices:</string>
+    <string name="industry_intro">Please Enter the quantity of each item you use for your Industry or Hire Equipments:</string>
+    <string name="caravan_intro">Please Enter the quantity of each item you use for Caravan Camping:</string>
+    <string name="garden_intro">Please Enter the quantity of each item you use for Garden and DIY:</string>
+    <string name="domestic_naming">DOMESTIC/OFFICES</string>
+    <string name="garden_naming"><![CDATA[GARDEN & DIY]]></string>
+    <string name="caravan_naming">CARAVAN CAMPING</string>
+    <string name="industry_naming">INDUSTRY/HIRE EQUIPMENT</string>
+    <string name="result_button">CALCULATE</string>
+    <string name="result_back_button">OK</string>
+</resources>

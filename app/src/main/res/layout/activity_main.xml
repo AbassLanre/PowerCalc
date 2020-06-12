@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LayoutID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.3"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/items" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/abhaya_libre"
+                    android:text="@string/title"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/introductionID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/abhaya_libre"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="8dp"
+                    android:text="@string/introduction_name"
+                    android:textColor="#3A3838"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/abhaya_libre"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="20dp"
+                    android:text="@string/button_intro"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/myScrollView"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/domesticID"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/white"
+                                android:fontFamily="@font/abhaya_libre"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="5dp"
+                                android:stateListAnimator="@android:anim/accelerate_interpolator"
+                                android:text="@string/domestic_button"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                            <Button
+                                android:id="@+id/industryID"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/white"
+                                android:fontFamily="@font/abhaya_libre"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="5dp"
+                                android:stateListAnimator="@android:anim/accelerate_interpolator"
+                                android:text="@string/industry_button"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                            <Button
+                                android:id="@+id/gardenID"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/white"
+                                android:fontFamily="@font/abhaya_libre"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="5dp"
+                                android:stateListAnimator="@android:anim/accelerate_interpolator"
+                                android:text="@string/garden_button"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                            <Button
+                                android:id="@+id/caravanID"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/white"
+                                android:fontFamily="@font/abhaya_libre"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="5dp"
+                                android:stateListAnimator="@android:anim/accelerate_interpolator"
+                                android:text="@string/caravan_button"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/toStag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
+                        android:text="text"
+                        android:textColor="#212121"
+                        android:textSize="13sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.448"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.945" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
