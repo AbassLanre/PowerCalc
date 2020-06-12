@@ -23,20 +23,6 @@ public class SplashScreen extends MainActivity {
 
         changeStatusBarColor();
 
-//        new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                try{
-//                    Thread.sleep(800);
-//                    }
-//                catch(InterruptedException e){
-//                    e.printStackTrace();
-//                }
-//
-//                startActivity(new Intent(SplashScreen.this, MainActivity.class));
-//                SplashScreen.this.finish();
-//            }
-//        }).start();
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
