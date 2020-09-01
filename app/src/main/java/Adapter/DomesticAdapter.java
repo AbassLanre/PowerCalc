@@ -27,7 +27,7 @@ public class DomesticAdapter extends RecyclerView.Adapter<DomesticAdapter.Domest
         domesticValue=new String[list.size()];
         for (int i=0; i<list.size(); i++){
             domesticValue[i]=String.valueOf(num);
-
+//recall
         }
     }
 
